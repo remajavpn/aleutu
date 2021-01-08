@@ -14,7 +14,7 @@ apt update
 apt upgrade -y
 apt-get install git -y
 git clone https://github.com/remajavpn/aleutu
-cd ssh-installer
+cd aleutu
 chmod +x install.sh
 ./install.sh
 ```
