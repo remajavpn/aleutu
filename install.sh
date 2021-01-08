@@ -407,7 +407,7 @@ sed -i '$ i\screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-
 chmod +x /usr/bin/badvpn-udpgw
 screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 500
 cd
-rm -rf ssh-installer
+rm -rf aleutu
 git clone https://github.com/remajavpn/aleutu
 cd ssh-installer/badvpn/
 mv badvpn-udpgw /usr/bin/
