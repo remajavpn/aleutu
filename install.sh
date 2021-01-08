@@ -524,7 +524,7 @@ echo; echo 'Penginstallan selesai.'
 echo 'File config terletak pada /usr/local/ddos/ddos.conf'
 cd
 apt-get install -y libxml-parser-perl
-cd ssh-installer/files
+cd aleutu/files
 mv banner-ssh /etc/
 echo 'File banner ssh terletak pada /etc/banner-ssh'
 cd
@@ -546,7 +546,7 @@ mv port.sh port
 mv statport.sh statport
 cd
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
-cd ssh-installer/menu
+cd aleutu/menu
 cp -R menu /usr/bin
 cp -R usernew /usr/bin
 cp -R trial /usr/bin
