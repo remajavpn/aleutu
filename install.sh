@@ -388,7 +388,7 @@ rm -rf neofetch
 apt-get -y update
 cd
 rm /etc/nginx/sites-enabled/default
-cd ssh-installer/nginx/
+cd aleutu/nginx/
 mv default /etc/nginx/sites-enabled/
 cd
 /etc/init.d/nginx restart
